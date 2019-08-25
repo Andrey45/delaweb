@@ -1,29 +1,22 @@
-# delaweb
+# Тестовое задание на Vue
 
-## Project setup
-```
-npm install
-```
+#### Для более удобной проверки на работоспособность кода проект размещен на heroku
+[https://delaweb.herokuapp.com/#/]
+# Внимание
+### Сервер написанный на golang (main.go) локально работать не будет
+### База данных на Postgres размещена на heroku
+# Front-end
+#### Просмотреть работу на хостинге можно по адресу
+[https://delaweb.herokuapp.com/#/]
+#### Для запуска локально
+```text
+Клонируем репозиторий [https://github.com/Andrey45/delaweb.git]
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+В командной строке или терминале введите npm install или yarn install
 
-### Compiles and minifies for production
+После npm run serve или yarn serve
 ```
-npm run build
+#### Для сборки
+```text
+npm run build или yarn build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
